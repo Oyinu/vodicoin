@@ -204,11 +204,11 @@ section{
 @media (max-width: 990px){
     body{
         position: relative;
-        max-width: 720px;
+        max-width: 730px;
     }
   header{
     position: relative;
-    max-width: 720px;
+    max-width: 730px;
   }
 
     .hero{
@@ -243,10 +243,10 @@ section{
   
     .navlist a{
         
-        margin: 26px 9px;
+        margin: 26px 12px;
         margin-left: 0;
-        padding: 0 2px;
-        font-size: 12px;
+        padding: 0 5px;
+        font-size: 10px;
     }
   
 } 
