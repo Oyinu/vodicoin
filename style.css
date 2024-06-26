@@ -204,8 +204,12 @@ section{
 @media (max-width: 990px){
     body{
         position: absolute;
+        max-width: 768px;
     }
-  
+  header{
+    max-width: 768px;
+  }
+
     .hero{
         height: 100%;
         width: 100%;
@@ -240,6 +244,7 @@ section{
         
         margin: 26px 12px;
         margin-left: 0;
+        padding: 0 5px;
         font-size: 12px;
     }
   
@@ -249,4 +254,4 @@ section{
         width: 100%;
         height: auto;
     }
-}
+} 
