@@ -203,10 +203,11 @@ section{
 } 
 @media (max-width: 990px){
     body{
-        position: absolute;
+        position: relative;
         max-width: 768px;
     }
   header{
+    position: relative;
     max-width: 768px;
   }
 
