@@ -39,3 +39,40 @@ img{
     padding-right: 2rem;
     margin: 0 2rem;
 }
+@media (max-width: 990px){
+  
+    .h{
+        font-size: 15px;
+        margin-left: 12%;
+    }
+
+    
+    #benefit{
+        padding: 1rem 1rem;
+        align-items: center;
+        display: inline-block;
+        justify-content: center;
+    }
+    
+    p{
+        padding: 0 .5rem;
+        font-size: 12px;
+    }
+    .benefit, .ben{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+    
+    
+    img{
+        width: 100px;
+        padding-right: 2rem;
+        margin: 0 2rem;
+    }
+  .para li{
+    margin-top: 2rem;
+  }
+
+} 
