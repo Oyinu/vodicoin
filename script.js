@@ -1,10 +1,11 @@
-let menu = document.querySelector('#menu-icon');
-let navlist = document.querySelector('.navlist');
-
-menu.onclick = () => {
-    menu.classList.toggle('bx-x');
-    navlist.classList.toggle('open');
-};
+function toggleMenu() {
+    var x = document.getElementById("myNavbar");
+    if (x.className === "navbar") {
+      x.className += " responsive";
+    } else {
+      x.className = "navbar";
+    }
+  }
 
 const sr = ScrollReveal (
     {
